@@ -1,0 +1,18 @@
+{
+    "trigger": "start",
+    "depends": [],
+    "actions": [
+        {
+            "action": "message",
+            "text": "/l password",
+            "log": "Sent Login Message, (waiting 10 secs)",
+            "wait": 10
+        },
+        {
+            "action": "message",
+            "text": "/server survival",
+            "wait": 10,
+            "log": "Sent Connect message. (waiting 10 secs)"
+        }
+    ]
+}

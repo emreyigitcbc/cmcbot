@@ -1,0 +1,80 @@
+{
+    "trigger": "dependLoad",
+    "depends": ["AutoLogin"],
+    "actions": [
+        {
+            "action": "message",
+            "text": "/home farm",
+            "log": "Went to home",
+            "wait": 10
+        },
+        {
+            "action": "nested dig",
+            "first_dig_pos": [-1398, -4, -10619],
+            "movement_offset": [0,0,-48],
+            "dig_offsets": [[0, 1, -1], [1,1,-1]]
+        },
+        {
+            "action": "nested dig",
+            "first_dig_pos": [-1395, -4, -10619],
+            "movement_offset": [0,0,-48],
+            "dig_offsets": [[0, 1, -1], [1,1,-1]]
+        },
+        {
+            "action": "nested dig",
+            "first_dig_pos": [-1392, -4, -10619],
+            "movement_offset": [0,0,-48],
+            "dig_offsets": [[0, 1, -1], [1,1,-1]]
+        },
+        {
+            "action": "nested dig",
+            "first_dig_pos": [-1389, -4, -10619],
+            "movement_offset": [0,0,-48],
+            "dig_offsets": [[0, 1, -1], [1,1,-1]]
+        },
+        {
+            "action": "nested dig",
+            "first_dig_pos": [-1386, -4, -10619],
+            "movement_offset": [0,0,-48],
+            "dig_offsets": [[0, 1, -1], [1,1,-1]]
+        },
+        {
+            "action": "nested dig",
+            "first_dig_pos": [-1383, -4, -10619],
+            "movement_offset": [0,0,-48],
+            "dig_offsets": [[0, 1, -1], [1,1,-1]]
+        },
+        {
+            "action": "move",
+            "xyz": [-1383, -4, -10619]
+        },
+        {
+            "action": "move",
+            "xyz": [-1398, -4, -10619]
+        },
+        {
+            "action": "move",
+            "xyz": [-1398,-4,-10616],
+            "log": "MOVING TO CHESTS."
+        },
+        {
+            "action": "open chest",
+            "offset": [1,1,0],
+            "wait": 1
+        },
+        {
+            "action": "transfer to chest",
+            "item": 0,
+            "quantity": 0
+        },
+        {
+            "action": "close chest",
+            "wait": 600,
+            "log": "Chest closed, waiting 600 secs"
+        },
+        {
+            "action": "repeat",
+            "times": 0
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cmcbot",
+  "version": "1.0.0",
+  "description": "Cebeci-Minecraft BOT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreyigitcbc/cmcbot.git"
+  },
+  "keywords": [
+    "mineraft",
+    "minecraft",
+    "bot",
+    "afk"
+  ],
+  "author": "Emre Cebeci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emreyigitcbc/cmcbot/issues"
+  },
+  "homepage": "https://github.com/emreyigitcbc/cmcbot#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "mineflayer": "^4.14.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-web-inventory": "^1.8.4",
+    "prismarine-viewer": "^1.25.0"
+  }
+}

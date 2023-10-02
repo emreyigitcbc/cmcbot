@@ -1,0 +1,13 @@
+{
+    "cracked": true,
+
+    "server_ip": "server.ip",
+    "server_port" : 25565,
+
+    "username": "SomeNick",
+    "password": "NOT NEEDED FOR CRACKED SERVERS",
+
+    "auto_detect_version": true,
+    "version": "1.20.1"
+
+}
